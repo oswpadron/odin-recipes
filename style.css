@@ -1,0 +1,64 @@
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(255, 111, 0);
+  border-radius: 50%;
+  color: rgb(73, 2, 2);
+  text-shadow: 1px 1px 2px rgb(255, 247, 0), 0 0 1em coral, 0 0 0.2em coral;
+  border-style: ridge;
+}
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: linear-gradient(115deg, rgba(61, 7, 9, 0.8), rgba(73, 43, 0, 0.7)), url(https://i.redd.it/6t7wydvgsl091.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+div {
+  background-color: coral;
+  border-radius: 50%;
+  border-style: ridge;
+}
+li, a {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: wavy;
+  list-style: none;
+  color: antiquewhite;
+  font-weight: bold;
+}
+a:hover {
+  color: black;
+}
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: antiquewhite;
+  text-align: center;
+}
+p {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: antiquewhite;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  color: antiquewhite;
+}
+img {
+  width: auto;
+  height: 300px;
+  display: flex;
+  margin: 0 auto;
+}
